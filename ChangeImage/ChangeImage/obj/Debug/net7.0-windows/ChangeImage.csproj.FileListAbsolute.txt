@@ -1,0 +1,17 @@
+C:\Project\C#\ChangeImage\ChangeImage\bin\Debug\net7.0-windows\ChangeImage.exe
+C:\Project\C#\ChangeImage\ChangeImage\bin\Debug\net7.0-windows\ChangeImage.deps.json
+C:\Project\C#\ChangeImage\ChangeImage\bin\Debug\net7.0-windows\ChangeImage.runtimeconfig.json
+C:\Project\C#\ChangeImage\ChangeImage\bin\Debug\net7.0-windows\ChangeImage.dll
+C:\Project\C#\ChangeImage\ChangeImage\bin\Debug\net7.0-windows\ChangeImage.pdb
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.csproj.AssemblyReference.cache
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.Form1.resources
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.csproj.GenerateResource.cache
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.AssemblyInfoInputs.cache
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.AssemblyInfo.cs
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.csproj.CoreCompileInputs.cache
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.dll
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\refint\ChangeImage.dll
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.pdb
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ChangeImage.genruntimeconfig.cache
+C:\Project\C#\ChangeImage\ChangeImage\obj\Debug\net7.0-windows\ref\ChangeImage.dll
