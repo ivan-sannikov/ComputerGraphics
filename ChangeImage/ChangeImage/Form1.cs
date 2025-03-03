@@ -1,3 +1,5 @@
+using ChangeImage.PointFilters;
+
 namespace ChangeImage
 {
     public partial class Form1 : Form
@@ -62,6 +64,61 @@ namespace ChangeImage
         private void ôèëüòğÃàóññàToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Filters filters = new GaussFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void îòòåíêèÑåğîãîToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new GrayScaleFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void ñåïèÿToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new SepiaFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void ÿğêîñòüToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new BrightnessFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void ôèëüòğÑîáåëÿToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new SobelFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void ğåçêîñòüToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new SharpnessFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+
+        }
+
+        private void ñåğûéÌèğToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new GrayWorldFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void ıôôåêòÑòåêëàToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new GlassEffectFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void ãîğèçîíòàëüíûåToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new HorizontalWaveFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void âåğòèêàëüíûåToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new VerticalWaveFilter();
             backgroundWorker1.RunWorkerAsync(filters);
         }
     }
