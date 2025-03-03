@@ -6,24 +6,26 @@ using System.Threading.Tasks;
 
 namespace ChangeImage
 {
-    class SobelFilter : MatrixFilters
+    class PryitFilter : MatrixFilters
     {
-        
+
         private static float[,] kernelX = new float[,]
-        {
+      {
             { -1, 0, 1 },
-            { -2, 0, 2 },
-            { -1, 0, 1 }
-        };
+            {  -1,  0,  1 },
+            {  -1,  0,  1 }
+      };
 
         private static float[,] kernelY = new float[,]
         {
-            { -1, -2, -1 },
-            {  0,  0,  0 },
-            {  1,  2,  1 }
+              { -1, -1, -1 },
+            { 0, 0, 0 },
+            { -1, -1, 1 }
+            
         };
 
-        public SobelFilter() : base(kernelX) { }
+
+        public PryitFilter() : base(kernelX) { }
 
         protected override Color calculateNewPixelColor(Bitmap sourceImage, int x, int y)
         {
@@ -66,3 +68,4 @@ namespace ChangeImage
         }
     }
 }
+

@@ -121,5 +121,36 @@ namespace ChangeImage
             Filters filters = new VerticalWaveFilter();
             backgroundWorker1.RunWorkerAsync(filters);
         }
+
+        private void îïåğàòîğÙàğğàToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            Filters filters = new SharFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void îïåğàòîğÏğşèòòàToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new PryitFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void ìåäèàíàToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new MedianFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void ëèíåéíîåĞàñòÿæåíèåÃèñòîãğàììûToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new LinGistFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
+
+        private void òèñíåíèåToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Filters filters = new EmbossingFilter();
+            backgroundWorker1.RunWorkerAsync(filters);
+        }
     }
 }
