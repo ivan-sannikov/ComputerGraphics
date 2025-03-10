@@ -152,5 +152,56 @@ namespace ChangeImage
             Filters filters = new EmbossingFilter();
             backgroundWorker1.RunWorkerAsync(filters);
         }
+
+        private void dilationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MatrixInput matrixInputWindow = new MatrixInput();
+            if (matrixInputWindow.ShowDialog() == DialogResult.OK) // Если окно закрыто с результатом true
+            {
+                // Получаем введенную матрицу
+                int[,] structuralElement = matrixInputWindow.Matrix;
+                Filters filters = new DilationOperation(structuralElement);
+                backgroundWorker1.RunWorkerAsync(filters);
+            }
+
+        }
+
+        private void erosiaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MatrixInput matrixInputWindow = new MatrixInput();
+            if (matrixInputWindow.ShowDialog() == DialogResult.OK) // Если окно закрыто с результатом true
+            {
+                // Получаем введенную матрицу
+                int[,] structuralElement = matrixInputWindow.Matrix;
+                Filters filters = new ErosiaOperation(structuralElement);
+                backgroundWorker1.RunWorkerAsync(filters);
+            }
+
+        }
+
+        private void openToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MatrixInput matrixInputWindow = new MatrixInput();
+            if (matrixInputWindow.ShowDialog() == DialogResult.OK) // Если окно закрыто с результатом true
+            {
+                // Получаем введенную матрицу
+                int[,] structuralElement = matrixInputWindow.Matrix;
+                Filters filters = new OpenOperation(structuralElement);
+                backgroundWorker1.RunWorkerAsync(filters);
+            }
+        }
+
+        private void closeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MatrixInput matrixInputWindow = new MatrixInput();
+            if (matrixInputWindow.ShowDialog() == DialogResult.OK) // Если окно закрыто с результатом true
+            {
+                // Получаем введенную матрицу
+                int[,] structuralElement = matrixInputWindow.Matrix;
+                Filters filters = new CloseOperation(structuralElement);
+                backgroundWorker1.RunWorkerAsync(filters);
+            }
+        }
     }
+
 }

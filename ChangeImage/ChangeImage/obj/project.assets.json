@@ -8,19 +8,24 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\T1816\\.nuget\\packages\\": {}
+    "C:\\Users\\dreadLord\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\T1816\\Desktop\\CG\\ComputerGraphics\\ChangeImage\\ChangeImage\\ChangeImage.csproj",
+      "projectUniqueName": "C:\\Project\\C#\\computer graphics\\lab1\\ComputerGraphics\\ChangeImage\\ChangeImage\\ChangeImage.csproj",
       "projectName": "ChangeImage",
-      "projectPath": "C:\\Users\\T1816\\Desktop\\CG\\ComputerGraphics\\ChangeImage\\ChangeImage\\ChangeImage.csproj",
-      "packagesPath": "C:\\Users\\T1816\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\T1816\\Desktop\\CG\\ComputerGraphics\\ChangeImage\\ChangeImage\\obj\\",
+      "projectPath": "C:\\Project\\C#\\computer graphics\\lab1\\ComputerGraphics\\ChangeImage\\ChangeImage\\ChangeImage.csproj",
+      "packagesPath": "C:\\Users\\dreadLord\\.nuget\\packages\\",
+      "outputPath": "C:\\Project\\C#\\computer graphics\\lab1\\ComputerGraphics\\ChangeImage\\ChangeImage\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\T1816\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dreadLord\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +33,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,11 +66,11 @@
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           },
-          "Microsoft.WindowsDesktop.App.WindowsForms": {
+          "Microsoft.WindowsDesktop.App": {
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
